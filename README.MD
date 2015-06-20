@@ -5,9 +5,8 @@ Best use scenarios:
  * This is a small app
  * You want to try a new angular plugin
 
-After cloning the project, use bower install to install all the components.
-Note that the app is ready to use with Material Design, Bootstrap UI or both. All you need to do is uncomment the
-relevant lines in index.html and app-init.js .
+This boilerplate employs all the ideas of the first one (https://github.com/shamshoum/tiny-angular),
+with added polymer.
 
 What was used:
 
@@ -15,3 +14,4 @@ What was used:
  * UI router
  * Material Design
  * Bootstrap UI
+ * Polymer
