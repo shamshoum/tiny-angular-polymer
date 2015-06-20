@@ -1,11 +1,22 @@
 <html ng-app="tiny-angular">
 <head>
+
+  <!-- app.css file -->
   <link href="css/app.css" rel="stylesheet" type="text/css"/>
+
+  <!-- Page title -->
   <title>{{ appName }} - {{ appVer }}</title>
+
+  <!-- Polymer and sample dom element -->
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+  <link rel="import" href="views/dom-element.html">
+
 
 </head>
 
 <body ng-controller="mainCtrl">
+
+  <dom-element></dom-element>
 
   <div ui-view>
 
